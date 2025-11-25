@@ -13,7 +13,7 @@ const Home = () => {
               <div className="flex justify-center md:justify-start">
                 <div className="w-36 h-36 md:w-48 md:h-48 rounded-full overflow-hidden border border-border">
                   <img
-                    src="src/pages/assets/profile.jpg"
+                    src="public/assets/profile.jpg"
                     alt="Pritom Paul"
                     className="w-full h-full object-cover"
                   />

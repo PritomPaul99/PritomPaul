@@ -87,7 +87,7 @@ const CV = () => {
 
             <div className="flex flex-wrap gap-4 pt-4">
               <a
-                href="src/pages/assets/Pritom_Paul_CV_2025.pdf"
+                href="public/assets/Pritom_Paul_CV_2025.pdf"
                 download="PritomPaul_CV.pdf"
                 className="inline-flex"
                 aria-label="Download Pritom Paul's CV as PDF"
