@@ -66,8 +66,10 @@ const CV = () => {
                 Research Interests
               </h3>
               <p className="text-foreground/80">
-                Deep Learning • Computer Vision • Natural Language Processing •
-                Large Language Models • Reinforcement Learning • AI
+                Artificial Intelligence • Deep Learning • Computer Vision •
+                Natural Language Processing • Large Language Models •
+                Reinforcement Learning • Supervised and Semi-Supervised Learning
+                • Big Data Analytics
               </p>
             </div>
 
