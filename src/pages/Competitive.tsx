@@ -23,12 +23,15 @@ const Competitive = () => {
                   <Code size={28} />
                 </div>
                 <div>
-                  <CardTitle className="text-2xl mb-2">About Competitive Programming</CardTitle>
+                  <CardTitle className="text-2xl mb-2">
+                    About Competitive Programming
+                  </CardTitle>
                   <p className="text-foreground/80">
-                    Competitive programming has been an integral part of my journey as a 
-                    computer scientist. Through rigorous practice in data structures and 
-                    algorithms, I've developed strong problem-solving skills and the ability 
-                    to write efficient, optimized code under time constraints.
+                    Competitive programming has been an integral part of my
+                    journey as a computer scientist. Through rigorous practice
+                    in data structures and algorithms, I've developed strong
+                    problem-solving skills and the ability to write efficient,
+                    optimized code under time constraints.
                   </p>
                 </div>
               </div>
@@ -40,21 +43,25 @@ const Competitive = () => {
               <Trophy className="text-primary" size={32} />
               Contest Participation
             </h2>
-            
+
             <div className="grid gap-6">
               <Card className="border-2">
                 <CardHeader>
-                  <CardTitle className="text-xl">ICPC Asia Dhaka Regional Contest</CardTitle>
+                  <CardTitle className="text-xl">
+                    ICPC Asia Dhaka Regional Contest
+                  </CardTitle>
                   <p className="text-sm text-muted-foreground">2023</p>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
                     <p className="text-foreground/80">
-                      <span className="font-semibold">Team:</span> NEUB_Believers
+                      <span className="font-semibold">Team:</span>{" "}
+                      NEUB_Believers
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Competed in the prestigious ICPC regional contest, solving complex 
-                      algorithmic problems alongside talented programmers from across Asia.
+                      Competed in the prestigious ICPC regional contest, solving
+                      complex algorithmic problems alongside talented
+                      programmers from across Asia.
                     </p>
                   </div>
                 </CardContent>
@@ -62,7 +69,9 @@ const Competitive = () => {
 
               <Card className="border-2">
                 <CardHeader>
-                  <CardTitle className="text-xl">ICPC Asia Dhaka Regional Contest</CardTitle>
+                  <CardTitle className="text-xl">
+                    ICPC Asia Dhaka Regional Contest
+                  </CardTitle>
                   <p className="text-sm text-muted-foreground">2022</p>
                 </CardHeader>
                 <CardContent>
@@ -71,8 +80,9 @@ const Competitive = () => {
                       <span className="font-semibold">Team:</span> NEUB_TeamXero
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Participated in the ICPC regional round, tackling challenging problems 
-                      in algorithms, data structures, and mathematical reasoning.
+                      Participated in the ICPC regional round, tackling
+                      challenging problems in algorithms, data structures, and
+                      mathematical reasoning.
                     </p>
                   </div>
                 </CardContent>
@@ -80,7 +90,9 @@ const Competitive = () => {
 
               <Card className="border-2">
                 <CardHeader>
-                  <CardTitle className="text-xl">ICPC Asia Dhaka Regional Contest</CardTitle>
+                  <CardTitle className="text-xl">
+                    ICPC Asia Dhaka Regional Contest
+                  </CardTitle>
                   <p className="text-sm text-muted-foreground">2021</p>
                 </CardHeader>
                 <CardContent>
@@ -89,8 +101,9 @@ const Competitive = () => {
                       <span className="font-semibold">Team:</span> NEUB_TeamXero
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      First participation in ICPC, marking the beginning of my competitive 
-                      programming journey at the international level.
+                      First participation in ICPC, marking the beginning of my
+                      competitive programming journey at the international
+                      level.
                     </p>
                   </div>
                 </CardContent>
@@ -104,17 +117,94 @@ const Competitive = () => {
                 <CardContent>
                   <div className="space-y-2">
                     <p className="text-foreground/80">
-                      <span className="font-semibold">Team:</span> NEUB_Believers
+                      <span className="font-semibold">Team:</span>{" "}
+                      NEUB_Believers
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Competed in the National Collegiate Programming Contest, showcasing 
-                      problem-solving skills against teams from universities across Bangladesh.
+                      Competed in the National Collegiate Programming Contest,
+                      showcasing problem-solving skills against teams from
+                      universities across Bangladesh.
                     </p>
                   </div>
                 </CardContent>
               </Card>
             </div>
           </div>
+          <Card className="border-2">
+            <CardHeader>
+              <CardTitle className="text-xl">SUST IUPC</CardTitle>
+              <p className="text-sm text-muted-foreground">2023</p>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                <p className="text-foreground/80">
+                  <span className="font-semibold">Team:</span> NEUB_Team_Xero
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Participated in the SUST Inter University Programming Contest,
+                  solving algorithmic problems under tight time constraints with
+                  teamwork and strategy.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-2">
+            <CardHeader>
+              <CardTitle className="text-xl">SUST IUPC</CardTitle>
+              <p className="text-sm text-muted-foreground">2024</p>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                <p className="text-foreground/80">
+                  <span className="font-semibold">Team:</span> NEUB_Believers
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Competed in the 2024 SUST IUPC, demonstrating advanced
+                  problem-solving and strong teamwork in a highly competitive
+                  environment.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-2">
+            <CardHeader>
+              <CardTitle className="text-xl">CUET IUPC</CardTitle>
+              <p className="text-sm text-muted-foreground">2024</p>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                <p className="text-foreground/80">
+                  <span className="font-semibold">Team:</span> NEUB_Believers
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Participated in CUET IUPC 2024, competing alongside strong
+                  teams from across the country in a challenging and dynamic
+                  contest.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-2">
+            <CardHeader>
+              <CardTitle className="text-xl">IUT IUPC</CardTitle>
+              <p className="text-sm text-muted-foreground">2024</p>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                <p className="text-foreground/80">
+                  <span className="font-semibold">Team:</span> NEUB_Believers
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Competed in the IUT Inter University Programming Contest,
+                  applying advanced analytical and algorithmic techniques under
+                  competition pressure.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
 
           <Card className="border-2">
             <CardHeader>
@@ -123,7 +213,9 @@ const Competitive = () => {
             <CardContent>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <h4 className="font-semibold text-foreground">Technical Skills</h4>
+                  <h4 className="font-semibold text-foreground">
+                    Technical Skills
+                  </h4>
                   <ul className="space-y-1 text-sm text-muted-foreground">
                     <li>• Advanced Data Structures</li>
                     <li>• Algorithm Design & Analysis</li>
