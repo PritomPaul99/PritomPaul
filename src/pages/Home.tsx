@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Contact } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -40,10 +40,20 @@ const Home = () => {
               <div className="flex flex-wrap gap-4">
                 <Link to="/contact">
                   <Button size="lg" className="gap-2">
-                    <Mail size={20} />
+                    <Contact size={20} />
                     Get in Touch
                   </Button>
                 </Link>
+                <a
+                  href="mailto:pritompaul.cse@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg" className="gap-2">
+                    <Mail size={20} />
+                    Email
+                  </Button>
+                </a>
                 <a
                   href="https://github.com/PritomPaul99"
                   target="_blank"
